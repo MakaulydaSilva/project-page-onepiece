@@ -1,7 +1,56 @@
-body {
-    background-image: url('img/capa-golddroger.jpg');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+    --primarycolor: #6F96A6;
+    --secondcolor: #8ABF92;
+    --thirdcolor: #F2C791;
+    --fourthcolor: #A65F21;
+    --fifthcolor: #A60303;
+    --fontone: 'Oswald', sans-serif;
+}
+
+header{
+    height: 270px;
+    width: auto;
+    background-color: var(--primarycolor);
+    background-image: url('img/capa03-grande.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-position:  center;
+}
+
+nav {
+    margin: 0px auto;
+    display: flex;
+    background-color: var(--primarycolor);
+    justify-content: space-around;
+    font-family: var(--fontone);
    
+    
+}
+
+.button {
+    background-color: #F2C791;
+    color: black;
+    border: 1.5px solid black;
+    width: 150px;
+    height: 30px;
+}
+
+@media (max-width: 700px) {
+    header {
+        background-image: url('img/capa03-normal.png');
+    }
+
+    nav {
+        width: 50px;
+        height: 30px;
+    }
+
+
 }
