@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
 :root {
     --primarycolor: #6F96A6;
     --secondcolor: #8ABF92;
@@ -13,15 +15,28 @@
     --fourthcolor: #A65F21;
     --fifthcolor: #A60303;
     --fontone: 'Oswald', sans-serif;
+    --fontpirate:  'Pirata One', cursive;
 }
 
-header{
+body {
+    background-color: var(--primarycolor);
+}
+
+header {
     height: 270px;
     width: auto;
     background-color: var(--primarycolor);
-    background-image: url('img/capa03-grande.png');
+    background-image: url('../img/capa03-grande.png');
     background-repeat: no-repeat;
     background-position:  center;
+}
+
+.phrase {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: var(--primarycolor);
+    font-family: var(--fontpirate);
 }
 
 nav {
@@ -30,27 +45,21 @@ nav {
     background-color: var(--primarycolor);
     justify-content: space-around;
     font-family: var(--fontone);
-   
-    
+    background-color: var(--fifthcolor);
+    margin: 5px;
+    padding: 5px;
 }
 
 .button {
     background-color: #F2C791;
-    color: black;
     border: 1.5px solid black;
     width: 150px;
     height: 30px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.836);
 }
 
 @media (max-width: 700px) {
     header {
-        background-image: url('img/capa03-normal.png');
+        background-image: url('../img/capa03-normal.png');
     }
-
-    nav {
-        width: 50px;
-        height: 30px;
-    }
-
-
 }
