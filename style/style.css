@@ -17,6 +17,9 @@
     --fontone: 'Oswald', sans-serif;
     --fontpirate:  'Pirata One', cursive;
 }
+body {
+    background-color: rgba(0, 255, 255, 0.116);
+}
 
 nav {
     background-color: var(--primarycolor);
@@ -24,7 +27,7 @@ nav {
     display: flex;
     height: 50px;
     width: 100%;
-    position: fixed;
+    position: relative;
     justify-content: space-between;
 
 }
@@ -50,7 +53,7 @@ nav ul li a {
 
 header {
     background-image: url('../img/mar-one-piece.jpg');
-    height: 300px;
+    height: 150px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,10 +61,36 @@ header {
 
 header section h1 {
     text-align: center;
-    padding: 130px 0 0 0;
+    padding: 40px 0 0 0;
     color: #f5f25b;
     font-size: 2.5em;
     text-shadow: 0px 0px 3px yellow;
     
+}
+
+main {
+    padding: 40px;
+    background-color: white;
+    margin: 60px 60px;
+}
+
+main section h2 {
+    text-shadow: 1px 1px 2px black;
+    color: #A60303;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fontpirate);
+}
+
+.brief-summary {
+    text-indent: 10px;
+    font-family: sans-serif;
+    padding: 10px ;
+    line-height: 2em;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
