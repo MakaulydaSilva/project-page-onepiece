@@ -15,82 +15,82 @@
     --fourthcolor: #A65F21;
     --fifthcolor: #A60303;
     --fontone: 'Oswald', sans-serif;
-    --fontpirate:  'Pirata One', cursive;
-}
-body {
-    background-color: rgba(0, 255, 255, 0.116);
+    --fontpirate: 'Pirata One', cursive;
 }
 
-nav {
-    background-color: var(--primarycolor);
-    padding: 10px;
+* html {
+    font-size: 62.5%;
+}
+
+.menu section {
+    background-color: rgba(0, 255, 255, 0.178);
+    height: 90px;
     display: flex;
-    height: 50px;
-    width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    border: 0.1rem solid lightgray;
 }
 
-nav img {
-    margin: 0 10px 0 0;
-}
-
-nav ul {
+.menu .list {
     display: flex;
-    list-style-type: none;
 }
 
-nav ul li a {
-    color: white;
+.menu .list ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu .list ul li a {
+    font-family: var(--fontpirate);
+    display: block;
+    padding: 0.5rem;
+    margin: 1.4rem;
+    font-size: 1rem;
+    position: relative;
     text-decoration: none;
-    margin: 0 20px 0 0;
-    font-family: var(--fontpirate);
-    color: var(--fifthcolor);
-    font-weight: bold;
+    color: white;
+    background-color: var(--primarycolor);
+    border-radius: 0.8rem;
+    height: 2.4rem;
+    border: 1px solid black;
+
 
 }
 
-header {
-    position: fixed;
-    background-image: url('../img/mar-one-piece.jpg');
-    height: 150px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
+.menu .list ul li a:hover {
+   background-color: var(--thirdcolor);
+    color: black;
+    box-shadow: 1px -1px 4px lightgray;
+    transition: all 600ms ease-in-out;
 }
 
-header section h1 {
-    text-align: center;
-    padding: 40px 0 0 0;
-    color: #f5f25b;
-    font-size: 2.5em;
-    text-shadow: 0px 0px 3px yellow;
-    
+.menu .logo {
+    display: flex;
+    width: 140px;
+    margin: 20px;
 }
 
-main {
-    padding: 40px;
-    background-color: white;
-    margin: 60px 60px;
+.menu-spacing {
+    height: 3rem;
 }
 
-main section h2 {
-    text-shadow: 1px 1px 2px black;
-    color: #A60303;
-    margin: 20px 0 20px 0;
-    text-align: center;
-    font-size: 2em;
-    font-family: var(--fontpirate);
+.content {
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
-.brief-summary {
-    text-indent: 10px;
+.intro {
+    margin: 30px;
     font-family: sans-serif;
-    padding: 10px ;
-    line-height: 2em;
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    font-size: 1.2rem;
-    text-align: justify;
 }
+
+.intro h2 {
+    font-family: var(--fontpirate);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+
+
 
