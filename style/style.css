@@ -20,6 +20,7 @@
 
 * html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 .menu {
@@ -29,14 +30,14 @@
     width: 100%;
     z-index: 1;
     background-color: #A60303;
-    
+
 }
 
 .menu section {
     height: 90px;
     display: flex;
     justify-content: space-around;
-   
+
 }
 
 .menu .list {
@@ -66,7 +67,7 @@
 }
 
 .menu .list ul li a:hover {
-   background-color: var(--thirdcolor);
+    background-color: var(--thirdcolor);
     color: black;
     box-shadow: 1px -1px 4px lightgray;
     transition: all 600ms ease-in-out;
@@ -79,20 +80,15 @@
 }
 
 .menu-spacing {
-   height: 6.5rem;
+    height: 9rem;
 }
 
 .content {
     max-width: 120rem;
 }
 
-.intro {
-    margin: 30px;
-    font-family: sans-serif;
-    background-color: white;
-}
-
 p {
+    font-family: sans-serif;
     text-indent: 1rem;
     line-height: 2rem;
     font-size: 1.2rem;
@@ -105,7 +101,7 @@ p {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .oda01 {
@@ -117,6 +113,8 @@ p {
 }
 
 .title {
+    height: 3rem;
+    border: 0.1rem solid black;
     color: white;
     background-color: #6F96A6;
     margin: 0 8rem;
@@ -132,18 +130,43 @@ p {
     padding: 4rem;
 }
 
-.all-chars {
-     
+.images {
+    padding: 1rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #f2c69198;
+    border: 0.1rem solid black;
 }
 
 .img-char {
+    padding: 2rem;
     width: 30rem;
     height: 30rem;
 }
 
-.title-char {
-
+li {
+    list-style: none;
 }
 
+.title-char {
+    padding: 1.5rem;
+    margin: 5rem auto;
+    width: 40rem;
+    align-items: center;
+    font-family: var(--fontone);
+    font-size: 1.3rem;
+    background-image: linear-gradient(to right,#A65F21,  #F2C791);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    height: 1rem;
+}
 
+.ti-char {
+    background-color: var(--fifthcolor);
+}
 
+.spacing-char {
+    height: 5.5rem;
+}
