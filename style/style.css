@@ -170,3 +170,32 @@ li {
 .spacing-char {
     height: 5.5rem;
 }
+
+.space-devil-fruits {
+    background-color: #8abf9260;
+}
+
+.title-devil-fruits {
+   background-color: var(--fourthcolor);
+}
+
+.style-devil-fruits {
+    background-color:  #8abf9260;
+    padding: 4rem;
+
+}
+
+.fruits-img {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.img-fruit{
+    
+    width: 30%;
+}
+
+
