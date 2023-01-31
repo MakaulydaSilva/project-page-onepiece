@@ -156,7 +156,7 @@ li {
     align-items: center;
     font-family: var(--fontone);
     font-size: 1.3rem;
-    background-image: linear-gradient(to right,#A65F21,  #F2C791);
+    background-image: linear-gradient(to right, #A65F21, #F2C791);
     display: flex;
     justify-content: space-around;
     border-radius: 1rem;
@@ -176,11 +176,11 @@ li {
 }
 
 .title-devil-fruits {
-   background-color: var(--fourthcolor);
+    background-color: var(--fourthcolor);
 }
 
 .style-devil-fruits {
-    background-color:  #8abf9260;
+    background-color: #8abf9260;
     padding: 4rem;
 
 }
@@ -190,12 +190,45 @@ li {
     width: 50%;
     margin: 0 auto;
     justify-content: space-between;
-    
+
 }
 
-.img-fruit{
-    
+.img-fruit {
+
     width: 30%;
 }
 
+.title-type-fruit {
+    padding: 1.5rem;
+    margin: 5rem auto;
+    width: 40rem;
+    align-items: center;
+    font-family: var(--fontone);
+    font-size: 1.3rem;
+    background-color: #a60303b4;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    height: 1rem;
+}
 
+.title-fruit {
+    font-size: 1.4rem;
+    margin-left: 6rem;
+    font-family: var(--fontone);
+    background-color: #A60303;
+    height: 3rem;
+    width: 30%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+}
+
+.li-fruits-title {
+    font-family: var(--fontpirate);
+}
+
+.li-fruits {
+
+    margin: 1rem;
+}
