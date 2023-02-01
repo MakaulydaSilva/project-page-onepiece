@@ -194,8 +194,35 @@ li {
 }
 
 .img-fruit{
-    
     width: 30%;
 }
 
+.title-list-fruits {
+    background-color: #a60303c2;
+    font-family: var(--fontpirate);
+    height: 2rem;
+    border-radius: 0.5rem;
+    width: 10rem;
+    text-align: center;
+    margin-top: 8rem;
+    margin-left: 7rem;
+}
 
+.ul-fruits {
+    font-family: var(--fontpirate);
+}
+
+.ul-img{
+    width: 20%;
+}
+
+.ul-title {
+    text-decoration: underline;
+    margin: 3rem;
+    font-size: 1.4rem;
+}
+
+.ul-text {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
