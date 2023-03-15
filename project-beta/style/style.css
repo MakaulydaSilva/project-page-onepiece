@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+:root {
+    --primarycolor: #6F96A6;
+    --secondcolor: #8ABF92;
+    --thirdcolor: #F2C791;
+    --fourthcolor: #A65F21;
+    --fifthcolor: #A60303;
+    --fontone: 'Oswald', sans-serif;
+    --fontpirate: 'Pirata One', cursive;
+}
+
+* html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ac1d1d;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    z-index: 1;
+}
+
+.logo {
+    width: 12rem;
+    margin: 1rem;
+}
+
+.menu-list {
+    display: flex;
+    margin: 2rem;
+    list-style: none;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+    font-size: 1rem;
+    font-family: var(--fontpirate);
+}
+
+.menu .list ul li a:hover {
+    color: black;
+    text-decoration: line-through;
+    transition: all 300ms ease-in-out;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
