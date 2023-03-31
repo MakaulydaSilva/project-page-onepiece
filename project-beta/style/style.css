@@ -26,10 +26,15 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    background-color: #ac1d1d;
+    background-color: #A60303;
+    background-image: url('https://raw.githubusercontent.com/MakaulydaSilva/project-page-onepiece/master/project-beta/img/OVER_THE_TOP.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     margin: 0.1rem;
     padding: 0.5rem;
     z-index: 1;
+    height: 7rem;
 }
 
 .logo {
@@ -45,14 +50,16 @@
 
 .menu-list li a {
     text-decoration: none;
-    color: white;
+    color: #A60303;
+    background-color: #2ea5d4;
     margin: 2rem;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    padding: 0.4rem;
+    border-radius: 1rem;
     font-family: var(--fontpirate);
 }
 
 .menu .list ul li a:hover {
-    color: black;
     text-decoration: line-through;
     transition: all 300ms ease-in-out;
 }
@@ -62,14 +69,57 @@
     font-size: 2rem;
 }
 
+.intro {
+    width: 95%;
+    margin-top: 0.5rem;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6f96a649;
 
+}
 
+.title-intro {
+    text-transform: uppercase;
+    font-family: var(--fontpirate);
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    color: #fa2121;
+    border-radius: 0.9rem;
+}
 
+.oda01 {
+    margin: 1rem;
+}
 
+.oda02 {
+    margin: 1rem;
 
+}
 
+.oda-img {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 1rem;
+    position: relative;
+    top: 1.3rem;
 
+}
 
+.p-intro {
+    font-family: sans-serif;
+    text-indent: 1rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    width: 60%;
+}
 
-
+.img-text-intro {
+    display: flex;
+    position: relative;
+}
 

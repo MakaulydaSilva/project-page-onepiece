@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1220px) {
     .menu-list {
         display: none;
     }
@@ -6,23 +6,23 @@
     .hamburger-menu {
         display: flex;
         flex-direction: column;
-        justify-content: space-between; 
-        align-items: center; 
+        justify-content: space-between;
+        align-items: center;
         height: 20px;
         cursor: pointer;
-        margin: 3rem auto; 
+        margin: 3rem auto;
     }
 
     .bar {
         width: 25px;
         height: 3px;
-        background-color: #fff;
+        background-color: #2ea5d4;
     }
 
     .menu-responsive {
         height: 100vh;
         width: 100vw;
-        background-color: #ac1d1d3d;
+        background-color: #ac1d1d75;
     }
 
     .menuRes {
@@ -37,6 +37,37 @@
     .logo {
         width: 8rem;
         margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .title-intro {
+        text-transform: uppercase;
+        font-family: var(--fontpirate);
+        background-color: none;
+        font-size: 1.5rem;
+        width: 90%;
+        text-align: left;
+    }
+
+    .img-text-intro {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .oda-img {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        right: 24%;
+    }
+
+    .oda01 {
+        width: 100%;
+    }
+
+    .oda02 {
+        width: 100%;
     }
 
 }
